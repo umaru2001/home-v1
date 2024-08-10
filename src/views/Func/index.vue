@@ -67,6 +67,7 @@ onBeforeUnmount(() => {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
   &.mobile {
     .el-row {
       .el-col {
