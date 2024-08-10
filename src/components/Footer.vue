@@ -60,7 +60,7 @@ const siteIcp = ref(meta.env.VITE_SITE_ICP);
 const siteAuthor = '海星来来';
 const siteUrl = computed(() => {
   const url = meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://pengdonglai.com";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;

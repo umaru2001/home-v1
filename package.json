@@ -1,8 +1,6 @@
 {
   "name": "home",
-  "author": "imsyy",
-  "github": "https://github.com/imsyy/home",
-  "home": "https://imsyy.top",
+  "author": "starfishdl",
   "private": true,
   "version": "4.1.4",
   "type": "module",
