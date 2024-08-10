@@ -3,7 +3,7 @@
     <Transition name="fade" mode="out-in">
       <div v-if="!store.playerState || !store.playerLrcShow" class="power">
         <span>
-          <span :class="startYear < fullYear ? 'c-hidden' : 'hidden'">Copyright&nbsp;</span>
+          <span :class="startYear < fullYear ? 'c-hidden' : 'hidden'">Copyright</span>
           &copy;
           <span v-if="startYear < fullYear"
             class="site-start">
@@ -15,15 +15,15 @@
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          &amp;&nbsp;Forked&nbsp;from
+          ＊&nbsp;Forked&nbsp;from
           <a :href="imsyyURL" target="_blank">
             imsyy
           </a>
         </span>
         <!-- 站点备案 -->
         <span>
-          &amp;
-          <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
+          ＊
+          <a v-if="siteIcp" target="_blank">
             {{ siteIcp }}
           </a>
         </span>

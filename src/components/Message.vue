@@ -93,8 +93,8 @@ watch(
 .message {
   .logo {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     animation: fade 0.5s;
     max-width: 460px;
     .logo-img {
@@ -120,6 +120,9 @@ watch(
       }
     }
     @media (max-width: 768px) {
+      .logo {
+        align-items: center;
+      }
       .logo-img {
         width: 100px;
       }
