@@ -45,7 +45,7 @@ export default ({ mode }) =>
         manifest: {
           name: loadEnv(mode, process.cwd()).VITE_SITE_NAME,
           short_name: loadEnv(mode, process.cwd()).VITE_SITE_NAME,
-          description: loadEnv(mode, process.cwd()).VITE_SITE_DES,
+          description: '心中的憧憬与向往，一如海祇岛上的那片珊瑚森林',
           display: "standalone",
           start_url: "/",
           theme_color: "#424242",
