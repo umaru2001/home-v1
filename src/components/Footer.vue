@@ -15,9 +15,9 @@
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          &amp;&nbsp;Made&nbsp;by
-          <a :href="config.github" target="_blank">
-            {{ config.author }}
+          &amp;&nbsp;Forked&nbsp;from
+          <a :href="imsyyURL" target="_blank">
+            imsyy
           </a>
         </span>
         <!-- 站点备案 -->
@@ -49,6 +49,7 @@ import meta from "@/env.js";
 
 const store = mainStore();
 const fullYear = new Date().getFullYear();
+const imsyyURL = 'https://github.com/imsyy/home';
 
 // 加载配置数据
 // const siteStartDate = ref(meta.env.VITE_SITE_START);

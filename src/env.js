@@ -6,7 +6,7 @@ const meta = {
     VITE_SITE_MAIN_LOGO: "/images/icon/logo.png", // 主页图标
     VITE_SITE_APPLE_LOGO: "/images/logo/apple-touch-icon.png", // Apple 端图标
     // 简介文本
-    VITE_DESC_HELLO: "Hello World !",
+    VITE_DESC_HELLO: "Hello World!",
     VITE_DESC_TEXT: "心中的憧憬与向往，一如海祇岛上的那片珊瑚森林",
     VITE_DESC_HELLO_OTHER: "Oops !",
     VITE_DESC_TEXT_OTHER: "哎呀，这都被你发现了（ 再点击一次可关闭 ）",
@@ -15,7 +15,7 @@ const meta = {
     // 建站日期
     VITE_SITE_START: "2019-10-02",
     // ICP
-    VITE_SITE_ICP: "",
+    VITE_SITE_ICP: "广告位招租",
     VITE_SONG_API: "",
     // 歌曲服务器 ( netease-网易云, tencent-qq音乐 )
     VITE_SONG_SERVER: "netease",
